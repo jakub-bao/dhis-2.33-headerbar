@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import {HeaderBar} from '@dhis2/ui-widgets';
 import {Provider} from '@dhis2/app-runtime';
 import {init, config} from 'd2';
+import "./index.css"
 
 const baseUrl = 'https://newrelease.datim.org/';
 
