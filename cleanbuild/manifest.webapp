@@ -1,0 +1,19 @@
+{
+  "launch_path": "index.html",
+  "default_locale": "en",
+  "appType": "APP",
+  "name": "Header Bar",
+  "version": "0.1.0",
+  "description": "DATIM Header Bar",
+  "developer": {
+    "name": "Jakub Flaska",
+    "email": "jflaska@baosystems.com"
+  },
+  "icons": {
+  },
+  "activities": {
+    "dhis": {
+        "href": "*"
+    }
+  }
+}

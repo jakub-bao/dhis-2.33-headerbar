@@ -16,10 +16,10 @@
   "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm run build:react && npm run build:clean && npm run build:zip",
+    "build": "npm run build:react && npm run build:clean",
     "build:react": "react-scripts build",
     "build:clean": "rm build/asset-manifest.json && rm build/service-worker.js && rm build/precache-manifest*",
-    "build:zip": "(rm -f headerbar.zip && cd build && zip ../headerbar.zip -r .)"
+    "build:zip": "(rm -f headerbar.zip && cd cleanbuild && zip ../headerbar.zip -r .)"
   },
   "eslintConfig": {
     "extends": "react-app"
