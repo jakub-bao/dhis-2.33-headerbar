@@ -6,7 +6,9 @@ import {Provider} from '@dhis2/app-runtime';
 import {init, config} from 'd2';
 import "./index.css"
 
-const baseUrl = 'https://newrelease.datim.org/';
+const devBaseUrl = 'https://newrelease.datim.org/';
+const prodBaseUrl = '../../../';
+const baseUrl = prodBaseUrl;
 
 config.baseUrl = baseUrl + 'api';
 config.i18n.sources.add('i18n.txt');
